@@ -8,6 +8,7 @@ Simple AI-powered prompt generator using Google's Gemini models.
 - Generate prompts from title and keywords
 - One-click generate & copy
 - Clear buttons and refined layout
+- Larger 512×512 image upload area
 
 ## Usage
 ```bash

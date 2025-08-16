@@ -48,7 +48,7 @@ with gr.Blocks(css=css, title="Prompt Master") as demo:
 
     with gr.Tab("Image → Prompt"):
         with gr.Row():
-            img = gr.Image(type="pil", label="Upload Image", height=300)
+            img = gr.Image(type="pil", label="Upload Image", height=512, width=512)
             img_prompt = gr.Textbox(label="Generated Prompt", lines=6)
         with gr.Row():
             img_btn = gr.Button("Generate & Copy", variant="primary")
